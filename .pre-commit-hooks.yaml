@@ -1,5 +1,9 @@
 -   id: gitlint
     name: gitlint
+    entry: gitlint
     language: python
-    entry: gitlint --msg-filename
+    'types': [python]
+    args: [--msg-filename]
+    require_serial: false
+    additional_dependencies: []
     stages: [commit-msg]
