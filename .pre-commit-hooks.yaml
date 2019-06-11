@@ -2,7 +2,7 @@
     name: gitlint
     entry: gitlint
     language: python
-    types: [python]
+#    types: [python]
     args: [--msg-filename]
     require_serial: false
     stages: [commit-msg]
